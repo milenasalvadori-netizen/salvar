@@ -19,6 +19,10 @@
            background-color: #FFFFFF;
            color: #183C63;
         }
+        img{
+            width: 80px;
+            height: 80px;
+        }
     </style>
 </head>
 <body>
@@ -27,6 +31,7 @@
         <p>Vou compartilhar conhecimentos sobre futebol</p>
     </header>
     <main>
+   <img src="imagem.png" alt="Ilustração em estilo de jornal antigo e tons de bege e preto sobre a Copa do Mundo. No topo, há uma faixa com o título "COPA DO MUNDO" e o subtítulo "JORNAL FUTEBOLÍSTICO". No centro, jogadores de futebol disputam a bola intensamente em um campo, cercados por uma arquibancada lotada de torcedores celebrando com faixas escrito "GOL!" e "CAMPEÕES". Ao fundo, destaca-se a silhueta da taça do mundo sobre um globo terrestre. A imagem possui uma moldura decorada com pequenas bolas de futebol nos cantos e detalhes texturizados que lembram papel envelhecido.">     
     <h1>Meu blog tech</h1>
     <h2>Meu primeiro post</h2>
     <p>Por: Milena Salvadori</p>
