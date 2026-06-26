@@ -45,17 +45,26 @@
         <p class="artigo-autor">Por: Milena Salvadori</p>
         <p>Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de futebol e curiosidades sobre.</p>
         <button>⚽ <span>0</span>0​</button>
+        <button>👏​ <span>0</span>0​</button>
     </div>
 
     </p>
     </main>
 </body>
 <script>
-    const button = document.querySelector("button");
-    button.addEventListener("click", buttonClicado);
+    const botoes = document.querySelectorAll("button");
 
-function buttonClicado(){
+    botoes.forEach( function(botao){
+        
+    }
+
+    )
+    botao.addEventListener("click", buttonClicado);
+
+   function buttonClicado(){
     console.log("fui clicado");
+    let texto = botao.querySelector("span")
+    texto.textContent++;
 }
 
 </script>
