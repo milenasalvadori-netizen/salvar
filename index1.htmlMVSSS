@@ -21,7 +21,9 @@
            max-width: 800px;
            margin: 0 auto;
            padding: 16px;
-           display: flex;
+        }
+        article{
+            display: flex;
         }
         img{
             width: 80px;
@@ -39,7 +41,8 @@
         <p>Vou compartilhar conhecimentos sobre futebol</p>
     </header>
     <main>
-       <img src="imagem.png" alt="Ilustração em estilo de jornal antigo e tons de bege e preto sobre a Copa do Mundo. No topo, há uma faixa com o título "COPA DO MUNDO" e o subtítulo "JORNAL FUTEBOLÍSTICO". No centro, jogadores de futebol disputam a bola intensamente em um campo, cercados por uma arquibancada lotada de torcedores celebrando com faixas escrito "GOL!" e "CAMPEÕES". Ao fundo, destaca-se a silhueta da taça do mundo sobre um globo terrestre. A imagem possui uma moldura decorada com pequenas bolas de futebol nos cantos e detalhes texturizados que lembram papel envelhecido.">     
+        <article>
+            <img src="imagem.png" alt="Ilustração em estilo de jornal antigo e tons de bege e preto sobre a Copa do Mundo. No topo, há uma faixa com o título "COPA DO MUNDO" e o subtítulo "JORNAL FUTEBOLÍSTICO". No centro, jogadores de futebol disputam a bola intensamente em um campo, cercados por uma arquibancada lotada de torcedores celebrando com faixas escrito "GOL!" e "CAMPEÕES". Ao fundo, destaca-se a silhueta da taça do mundo sobre um globo terrestre. A imagem possui uma moldura decorada com pequenas bolas de futebol nos cantos e detalhes texturizados que lembram papel envelhecido.">     
     <div>
         <h2>Meu primeiro post</h2>
         <p class="artigo-autor">Por: Milena Salvadori</p>
@@ -48,6 +51,21 @@
         <button>👏​ <span>0</span>0​</button>
     </div>
 
+        </article>
+        <article>
+            <h1>Meu Jornal Futebolístico</h1>
+        <p>Vou compartilhar conhecimentos sobre futebol</p>
+    </header>
+    <main>
+        <article>
+            <img src="imagem.png" alt="Ilustração em estilo de jornal antigo e tons de bege e preto sobre a Copa do Mundo. No topo, há uma faixa com o título "COPA DO MUNDO" e o subtítulo "JORNAL FUTEBOLÍSTICO". No centro, jogadores de futebol disputam a bola intensamente em um campo, cercados por uma arquibancada lotada de torcedores celebrando com faixas escrito "GOL!" e "CAMPEÕES". Ao fundo, destaca-se a silhueta da taça do mundo sobre um globo terrestre. A imagem possui uma moldura decorada com pequenas bolas de futebol nos cantos e detalhes texturizados que lembram papel envelhecido.">     
+    <div>
+        <h2>Meu segundo post</h2>
+        <p class="artigo-autor">Por: Milena Salvadori</p>
+        <p>Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de futebol e curiosidades sobre.</p>
+        <button>⚽ <span>0</span>0​</button>
+        <button>👏​ <span>0</span>0​</button>
+        </article>
     </p>
     </main>
 </body>
@@ -55,17 +73,17 @@
     const botoes = document.querySelectorAll("button");
 
     botoes.forEach( function(botao){
-        
-    }
+      botao.addEventListener("click", buttonClicado);
 
-    )
-    botao.addEventListener("click", buttonClicado);
+       function buttonClicado(){
+          console.log("fui clicado");
+          let texto = botao.querySelector("span")
+          texto.textContent++;
+        }
 
-   function buttonClicado(){
-    console.log("fui clicado");
-    let texto = botao.querySelector("span")
-    texto.textContent++;
-}
+    })
+    
+
 
 </script>
 </html>
