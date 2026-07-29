@@ -73,17 +73,25 @@
     const botoes = document.querySelectorAll("button");
 
     botoes.forEach( function(botao){
-      botao.addEventListener("click", buttonClicado);
-
-       function buttonClicado(){
+    let curtiu = false;
+    botao.addEventListener("click", buttonClicado);
+    function buttonClicado(){
           console.log("fui clicado");
-          let texto = botao.querySelector("span")
-          texto.textContent++;
+          let texto = botao.querySelector("span")    
+          if (curtiu === false){
+              texto.textContent++;
+              curtiu = true;
+          } else{
+            texto.textContent--;
+            curtiu = false;
+          }
         }
-
     })
     
 
 
 </script>
 </html>
+
+
+
