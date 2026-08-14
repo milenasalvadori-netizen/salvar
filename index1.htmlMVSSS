@@ -36,10 +36,56 @@
     <div>
         <h2>Meu segundo post</h2>
         <p class="artigo-autor">Por: Milena Salvadori</p>
-        <p>Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de futebol e curiosidades sobre.</p>
+        <p>Boas-vindas ao meu novo blog! Aqui vou compartilhar futebol e curiosidades sobre.</p>
         <button>⚽ <span>0</span>0​</button>
         <button>👏​ <span>0</span>0​</button>
         </article>
+      <article>
+    <img src="imagem-blog.png" 
+         alt="Descrição da imagem para acessibilidade">
+    <div>
+        <h2>Copa do Mundo</h2>
+        <p class="artigo-autor">Por: Milena Salvadori</p>
+        <p>Você sabia que a primeira copa do mundo foi realizada em 1930, no Uruguai, e o país casa levou o título!</p>
+        <button>❤️<span>0</span></button>
+        <button>��<span>0</span></button>
+    </div>
+</article>
+<article>
+    <img src="imagem-blog.png" 
+         alt="Descrição da imagem para acessibilidade">
+    <div>
+        <h2>Atual CAMPEÕES</h2>
+        <p class="artigo-autor">Por: Milena Salvadori</p>
+        <p>A copa de 2026, quem ganhou o mundo foi a Espanha, levando o título em cima da campeã de 2022, a Argentina, a Espanha ganhou a final de 1 a 0.</p>
+        <button>❤️<span>0</span></button>
+        <button>��<span>0</span></button>
+    </div>
+</article>
+<article>
+    <img src="imagem-blog.png" 
+         alt="Descrição da imagem para acessibilidade">
+    <div>
+        <h2>E o Memphis?</h2>
+        <p class="artigo-autor">Por: Milena Salvadori</p>
+        <p>Corinthians, o clube brasileiro do jogador anunciou nas redes sociais que não iriam renovar o contrato, o jogador se lamentou e ameaçou justiça ao time, que deve mais de 75 milhões ao jogador.</p>
+        <button>❤️<span>0</span></button>
+        <button>��<span>0</span></button>
+    </div>
+</article>
+<article>
+    <img src="imagem-blog.png" 
+         alt="Descrição da imagem para acessibilidade">
+    <div>
+        <h2>Cristiano Ronaldo Está Amando?</h2>
+        <p class="artigo-autor">Por: Milena Salvadori</p>
+        <p>O jogador postou em suas redes sociais que se casou com a famosa Georgina Rodrigues, sua parceira há mais de 10 anos, desejamos toda felicidades ao casal!</p>
+        <button>❤️<span>0</span></button>
+        <button>��<span>0</span></button>
+    </div>
+</article>
+
+
     </p>
     </main>
 
