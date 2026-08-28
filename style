@@ -1,5 +1,20 @@
 :root{
-      --cor-primaria:   
+      --cor-primaria: #183C63;
+      --cor-secundaria: #7ca8d6;
+      --cor-fundo:  #e9ecf0;
+      --cor-texto: #021122;
+      --cor-contraste: #cce0f5;
+      --cor-botao: #bec4ca;
+}
+
+.tema-escuro {
+      --cor-primaria: #183C63;
+      --cor-secundaria: #7ca8d6;
+      --cor-fundo:  #e9ecf0;
+      --cor-texto: #021122;
+      --cor-contraste: #cce0f5;
+      --cor-botao: #bec4ca;
+}
 }
 
 body {
@@ -7,16 +22,16 @@ body {
 }
 
 header {
-background-color: #183C63;
-color: #FFFFFF;
+background-color: var(--cor-primaria);
+color: var(--cor-contraste);
 text-align: center;
 margin: 0 auto;
 padding: 16px;
       }
 
 main{
-        background-color: #FFFFFF;
-        color: #183C63;
+        background-color: var(--cor-fundo);
+        color: var(--cor-primaria);
         margin: 0 auto;
         padding: 16px
 
