@@ -9,8 +9,8 @@
 
 </head>
 
-<body>
-    <header>
+<body class="tema-escuro"
+    </header>
         <h1>Meu Jornal Futebolístico</h1>
         <p>Vou compartilhar as mais novas notícias da vida dos jogadores</p>
     </header>
@@ -94,5 +94,8 @@
 
 
 </html>
+
+
+
 
 
