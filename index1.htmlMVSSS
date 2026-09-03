@@ -85,8 +85,9 @@
     </div>
 </article>
 
+<button class="btn-tema-escuro">��</button>
 
-    </p>
+
     </main>
 
     <script src="script.js"></script>
@@ -94,8 +95,6 @@
 
 
 </html>
-
-
 
 
 
